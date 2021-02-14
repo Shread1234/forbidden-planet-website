@@ -1,13 +1,28 @@
-import { AppBar, Tabs, Tab } from "@material-ui/core"
+import { AppBar, Tabs, Tab, makeStyles } from "@material-ui/core"
 
-export default function NavBar() {
+const useStyles = makeStyles({
+  root: {
+    fontWeight: "bold",
+  },
+  active: {
+    fontWeight: "bold",
+    color: "#ff0000",
+  },
+})
+
+const SetStyle = (currentTab, selectedTab) => {
+  const classes = useStyles()
+  return currentTab === selectedTab ? classes.active : classes.root
+}
+
+export default function NavBar({ handleTabChange, currentTab }) {
   return (
-    <AppBar position="static" id="NavBar">
-      <Tabs variant="fullWidth">
-        <Tab label="Shop" />
-        <Tab label="Server Details" />
-        <Tab label="Cluster Rules" />
-        <Tab label="Discord Link" />
+    <AppBar id="NavBar" position="static">
+      <Tabs variant="fullWidth" onClick={handleTabChange}>
+        <Tab label="Shop" className={SetStyle(currentTab, "SHOP")} />
+        <Tab label="Servers" className={SetStyle(currentTab, "SERVERS")} />
+        <Tab label="Rules" className={SetStyle(currentTab, "RULES")} />
+        <Tab label="Discord" className={SetStyle(currentTab, "DISCORD")} />
       </Tabs>
     </AppBar>
   )

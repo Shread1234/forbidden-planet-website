@@ -35,14 +35,19 @@
   animation-duration: 2s;
 }
 
+#pvpVideoContainer {
+  background-position: center;
+}
+
 #pvpVideo {
-  filter: blur(2px) grayscale(1);
+  filter: blur(3px) grayscale(100%);
   position: fixed;
   animation-name: App-logo-fade;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
   z-index: -1;
+  top: 0;
 }
 @media (min-aspect-ratio: 16/9) {
   #pvpVideo {
@@ -58,5 +63,24 @@
 }
 
 #NavBar {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+#RenderCurrentTab {
+  margin: 4rem 1.2rem 1rem;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-shadow: 1px 3px rgb(0, 0, 0);
 }
