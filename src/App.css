@@ -84,3 +84,11 @@ li {
   font-size: 1.2rem;
   text-shadow: 1px 3px rgb(0, 0, 0);
 }
+
+#discordInvite {
+  margin: 10% 10% 10%;
+}
+
+.serverCard {
+  padding: 10px;
+}
