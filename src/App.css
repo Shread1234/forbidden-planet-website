@@ -69,7 +69,7 @@
   top: 0;
 }
 
-#RenderCurrentTab {
+#Rules {
   margin: 4rem 1.2rem 1rem;
   background: rgba(0, 0, 0, 0.75);
   color: white;
@@ -85,8 +85,19 @@ li {
   text-shadow: 1px 3px rgb(0, 0, 0);
 }
 
+#dicordInviteContainer {
+  margin: 4rem 1.2rem 3rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#discordInviteImage {
+  padding: 2% 30% 0%;
+}
+
 #discordInvite {
-  margin: 10% 10% 10%;
+  margin: 5% 34% 6%;
 }
 
 .serverCard {

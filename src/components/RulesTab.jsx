@@ -1,6 +1,6 @@
 export default function RulesTab() {
   return (
-    <div>
+    <div id="Rules">
       <ul>
         <li>
           1. Minimal trash talk or abusive language, we understand things get heated but please keep

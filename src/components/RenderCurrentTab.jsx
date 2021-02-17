@@ -1,4 +1,3 @@
-import { Box } from "@material-ui/core"
 import RulesTab from "./RulesTab"
 import DiscordInvite from "./DiscordInvite"
 import ServerCards from "./ServerCards"
@@ -8,18 +7,20 @@ const switchOnTab = (selectedTab) => {
     case "RULES":
       return <RulesTab />
     case "SHOP":
-      return <div>This is a shop</div>
+      return <div id="Rules">This is a shop</div>
     case "SERVERS":
-      return <ServerCards />
+      return (
+        <div id="Rules">
+          <ServerCards />
+        </div>
+      )
+    case "DISCORD":
+      return <DiscordInvite />
     default:
-      return <div>This is a 404</div>
+      return <div id="Rules">This is a 404</div>
   }
 }
 
 export default function RenderCurrentTab({ currentTab }) {
-  return currentTab === "DISCORD" ? (
-    <DiscordInvite />
-  ) : (
-    <Box id="RenderCurrentTab">{switchOnTab(currentTab)}</Box>
-  )
+  return switchOnTab(currentTab)
 }
