@@ -18,7 +18,7 @@
   color: white;
 }
 
-@keyframes App-logo-fade {
+@keyframes fade {
   0% {
     opacity: 0;
   }
@@ -29,7 +29,7 @@
 
 .App-logo {
   opacity: 1;
-  animation-name: App-logo-fade;
+  animation-name: fade;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 2s;
@@ -42,7 +42,7 @@
 #pvpVideo {
   filter: blur(3px) grayscale(100%);
   position: fixed;
-  animation-name: App-logo-fade;
+  animation-name: fade;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
@@ -86,8 +86,7 @@ li {
 }
 
 #dicordInviteContainer {
-  margin: 4rem 1.2rem 3rem;
-  background-color: rgba(0, 0, 0, 0.75);
+  margin: 3rem;
   display: inline-block;
   border-radius: 10px;
 }
@@ -101,5 +100,23 @@ li {
 }
 
 .serverCard {
-  padding: 10px;
+  padding: 10px 20px 100px 10px;
+}
+
+#ServerCards {
+  margin: 15rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#ServerCards > div {
+  flex: 1;
+}
+
+.serverLogo {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: sticky;
 }

@@ -9,11 +9,7 @@ const switchOnTab = (selectedTab) => {
     case "SHOP":
       return <div id="Rules">This is a shop</div>
     case "SERVERS":
-      return (
-        <div id="Rules">
-          <ServerCards />
-        </div>
-      )
+      return <ServerCards />
     case "DISCORD":
       return <DiscordInvite />
     default:
