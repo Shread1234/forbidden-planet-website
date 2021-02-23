@@ -10,7 +10,7 @@ export default function DiscordInvite() {
         width="550"
         height="700"
         allowtransparency="false"
-        frameborder="0"
+        frameBorder="0"
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         id="discordInvite"
       ></iframe>

@@ -1,13 +1,14 @@
 import RulesTab from "./RulesTab"
 import DiscordInvite from "./DiscordInvite"
 import ServerCards from "./ServerCards"
+import Shop from "./Shop"
 
 const switchOnTab = (selectedTab) => {
   switch (selectedTab) {
     case "RULES":
       return <RulesTab />
     case "SHOP":
-      return <div id="Rules">This is a shop</div>
+      return <Shop />
     case "SERVERS":
       return <ServerCards />
     case "DISCORD":
