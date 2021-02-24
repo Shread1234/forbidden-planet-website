@@ -1,11 +1,15 @@
 export default function Shop() {
   return (
     <>
-      <iframe
+      <object
         id="Shop"
-        src="https://forbidden-planet-pvp-cluster.tebex.io/category/instant-points"
-        title="Tebex Shop"
-      ></iframe>
+        data="https://forbidden-planet-pvp-cluster.tebex.io/category/points-per-hour-increase"
+      >
+        <embed
+          src="https://forbidden-planet-pvp-cluster.tebex.io/category/points-per-hour-increase"
+          title="Tebex Shop"
+        ></embed>
+      </object>
     </>
   )
 }
