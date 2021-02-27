@@ -4,7 +4,8 @@ import Genesis from "../assets/images/genesis.webp"
 import Ragnarok from "../assets/images/ragnarok.webp"
 import TheCenter from "../assets/images/the-center.webp"
 import TheIsland from "../assets/images/the-island.webp"
-import Valguero from "../assets/images/valguero.webp"
+import CrystalIsles from "../assets/images/crystal-isles.webp"
+import ScorchedEarth from "../assets/images/scorched-earth.webp"
 
 export default function ServerCards() {
   return (
@@ -15,16 +16,6 @@ export default function ServerCards() {
           <img
             src="https://ark-servers.net/server/255099/banners/banner-2.png"
             alt="Center Banner"
-            border="0"
-          />
-        </a>
-      </div>
-      <div className="serverCard">
-        <a href="steam://connect/forbiddenplanetpvp.ddns.net:29300">
-          <img className="serverLogo" src={Valguero} alt="Valguero logo" />
-          <img
-            src="https://ark-servers.net/server/248507/banners/banner-2.png"
-            alt="Valguero Banner"
             border="0"
           />
         </a>
@@ -70,7 +61,6 @@ export default function ServerCards() {
           />
         </a>
       </div>
-
       <div className="serverCard">
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29000">
           <img className="serverLogo" src={Abberation} alt="Abberation logo" />
@@ -78,6 +68,26 @@ export default function ServerCards() {
             src="https://ark-servers.net/server/248506/banners/banner-2.png"
             border="0"
             alt="Abberation Banner"
+          />
+        </a>
+      </div>
+      <div className="serverCard">
+        <a href="steam://connect/forbiddenplanetpvp.ddns.net:29600">
+          <img className="serverLogo" src={CrystalIsles} alt="Crystal Isles logo" />
+          <img
+            src="https://ark-servers.net/server/248504/banners/banner-2.png"
+            border="0"
+            alt="Crystal Isles Banner"
+          />
+        </a>
+      </div>
+      <div className="serverCard">
+        <a href="steam://connect/forbiddenplanetpvp.ddns.net:29300">
+          <img className="serverLogo" src={ScorchedEarth} alt="Scorched Earth logo" />
+          <img
+            src="https://ark-servers.net/server/248504/banners/banner-2.png"
+            border="0"
+            alt="Scorched Earth Banner"
           />
         </a>
       </div>

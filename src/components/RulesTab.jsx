@@ -57,6 +57,14 @@ export default function RulesTab() {
           players will be be structure wiped on the map in question.
         </li>
         <li>20. TP traps are not permitted.</li>
+        <li>
+          21. Dino stacking for breeding purposes causes lag. If stacked dinos are found and causing
+          lag, they will be killed to improve server performance.
+        </li>
+        <li>
+          22. During a raid/pvp prisoners can be taken and held for a maximum of 30 minutes. After
+          this time you must release or kill them.
+        </li>
       </ul>
     </div>
   )
