@@ -21,7 +21,7 @@ export default function App() {
       <Suspense fallback={<LoadingLogo />}>
         <BackgroundVideo />
         <NavBar handleTabChange={handleTabChange} currentTab={currentTab} />
-        <RenderCurrentTab currentTab={currentTab} />
+        <RenderCurrentTab id="currentTab" currentTab={currentTab} />
       </Suspense>
     </>
   )

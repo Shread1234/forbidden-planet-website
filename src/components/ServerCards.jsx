@@ -14,7 +14,7 @@ export default function ServerCards() {
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29500">
           <img className="serverLogo" src={TheCenter} alt="The Center logo" />
           <img
-            src="https://ark-servers.net/server/255099/banners/banner-2.png"
+            src="https://ark-servers.net/server/255099/banners/banner-1.png"
             alt="Center Banner"
             border="0"
           />
@@ -75,7 +75,7 @@ export default function ServerCards() {
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29600">
           <img className="serverLogo" src={CrystalIsles} alt="Crystal Isles logo" />
           <img
-            src="https://ark-servers.net/server/248504/banners/banner-2.png"
+            src="https://ark-servers.net/server/254249/banners/banner-2.png"
             border="0"
             alt="Crystal Isles Banner"
           />
@@ -85,7 +85,7 @@ export default function ServerCards() {
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29300">
           <img className="serverLogo" src={ScorchedEarth} alt="Scorched Earth logo" />
           <img
-            src="https://ark-servers.net/server/248504/banners/banner-2.png"
+            src="https://ark-servers.net/server/248507/banners/banner-2.png"
             border="0"
             alt="Scorched Earth Banner"
           />

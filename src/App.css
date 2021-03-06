@@ -3,7 +3,8 @@
 }
 
 body {
-  overflow-y: hidden;
+  overflow: hidden;
+  margin: 0;
 }
 
 .App-logo {
@@ -64,6 +65,24 @@ body {
     width: auto;
     height: 100%;
   }
+  #Rules {
+    max-height: 88vh;
+  }
+}
+@media (min-height: 813px) {
+  #Rules {
+    max-height: 92vh;
+  }
+}
+@media (max-height: 824px) {
+  #discordInviteImage {
+    height: auto;
+    width: 90%;
+  }
+  #discordInvite {
+    height: 70%;
+    width: 90%;
+  }
 }
 
 #NavBar {
@@ -80,8 +99,16 @@ body {
   text-align: center;
   border-radius: 10px;
   overflow-y: scroll;
-  height: 94vh;
-  margin: 4rem 1rem 1.2rem;
+  margin: 4rem 1.2rem 1rem;
+  height: 93.5vh;
+}
+
+#CurrentTab {
+  flex: 1;
+}
+
+ul {
+  padding: 0;
 }
 
 ::-webkit-scrollbar-track {
@@ -104,17 +131,18 @@ li {
 }
 
 #dicordInviteContainer {
-  margin: 3rem;
-  display: inline-block;
-  border-radius: 10px;
+  margin: 4rem auto;
+  height: 88vh;
 }
 
 #discordInviteImage {
-  padding: 2% 30% 0%;
+  margin: 0rem auto;
+  display: block;
 }
 
 #discordInvite {
-  margin: 5% 34% 6%;
+  margin: 2rem auto;
+  display: block;
 }
 
 .serverCard {
