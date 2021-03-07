@@ -3,7 +3,7 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "FP_new.png"
+      "src": "FP_new.ico"
     }
   ],
   "start_url": ".",
