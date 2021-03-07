@@ -108,12 +108,12 @@ body {
   }
 }
 
-@media (min-height: 1921px) {
+@media (min-width: 1919px) {
   #ServerCards {
-    margin: 20rem 0rem 0rem 0rem !important;
+    margin: 10rem 0rem 0rem 0rem !important;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1922px and min-height 1300px) {
   #ServerCards {
     margin: 20rem 0rem 0rem 0rem !important;
   }
