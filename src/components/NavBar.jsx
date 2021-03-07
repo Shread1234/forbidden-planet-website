@@ -18,7 +18,7 @@ const SetStyle = (currentTab, selectedTab) => {
 export default function NavBar({ handleTabChange, currentTab }) {
   return (
     <AppBar id="NavBar" position="static">
-      <Tabs variant="fullWidth" onClick={handleTabChange}>
+      <Tabs variant="fullWidth" onClick={handleTabChange} value="test">
         <Tab
           label="Shop"
           className={SetStyle(currentTab, "SHOP")}

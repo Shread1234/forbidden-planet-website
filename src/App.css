@@ -110,7 +110,8 @@ body {
 
 @media (min-width: 1919px) {
   #ServerCards {
-    margin: 10rem 0rem 0rem 0rem !important;
+    margin: 3rem 0rem 0rem 0rem !important;
+    overflow: hidden !important;
   }
 }
 @media (min-width: 1922px and min-height 1300px) {
