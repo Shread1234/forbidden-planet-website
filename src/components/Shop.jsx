@@ -5,7 +5,6 @@ export default function Shop() {
         title="Tebex Shop"
         id="Shop"
         src="https://forbidden-planet-pvp-cluster.tebex.io/category/points-per-hour-increase"
-        is="x-frame-bypass"
       ></iframe>
     </>
   )

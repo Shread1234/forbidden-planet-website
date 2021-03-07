@@ -19,7 +19,11 @@ export default function NavBar({ handleTabChange, currentTab }) {
   return (
     <AppBar id="NavBar" position="static">
       <Tabs variant="fullWidth" onClick={handleTabChange}>
-        <Tab label="Shop" className={SetStyle(currentTab, "SHOP")} />
+        <Tab
+          label="Shop"
+          className={SetStyle(currentTab, "SHOP")}
+          href="https://forbidden-planet-pvp-cluster.tebex.io/category/points-per-hour-increase"
+        />
         <Tab label="Servers" className={SetStyle(currentTab, "SERVERS")} />
         <Tab label="Rules" className={SetStyle(currentTab, "RULES")} />
         <Tab label="Discord" className={SetStyle(currentTab, "DISCORD")} />

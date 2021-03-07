@@ -1,20 +1,19 @@
 import RulesTab from "./RulesTab"
 import DiscordInvite from "./DiscordInvite"
 import ServerCards from "./ServerCards"
-import Shop from "./Shop"
 
 const switchOnTab = (selectedTab) => {
   switch (selectedTab) {
     case "RULES":
       return <RulesTab />
     case "SHOP":
-      return <Shop />
+      return
     case "SERVERS":
       return <ServerCards />
     case "DISCORD":
       return <DiscordInvite />
     default:
-      return <div id="Rules">This is a 404</div>
+      return <div id="Rules">404: Page Not Found</div>
   }
 }
 
