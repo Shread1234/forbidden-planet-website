@@ -109,6 +109,9 @@ body {
   #ServerCards {
     margin: 20rem 0rem 0rem 0rem !important;
   }
+  #discordInvite {
+    max-height: 500px;
+  }
 }
 #NavBar {
   background: rgba(0, 0, 0, 1);
