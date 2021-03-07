@@ -31,7 +31,7 @@ export default function RulesTab() {
         </li>
         <li>8. Do not "inside" tribes.</li>
         <li>9. No building in the mesh.</li>
-        <li>10. No ORPs placed on FOBs</li>
+        <li>10. No ORPs placed on FOBs.</li>
         <li>
           11. Combat logging to avoid a raid isn't permitted. This includes logging on during a
           raid, repairing, resupplying your turrets then logging out.
