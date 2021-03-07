@@ -73,6 +73,9 @@ body {
   #Rules {
     max-height: 92vh;
   }
+  #discordInvite {
+    height: 70%;
+  }
 }
 @media (max-height: 824px) {
   #discordInviteImage {
@@ -108,9 +111,6 @@ body {
 @media (min-width: 1921px) {
   #ServerCards {
     margin: 20rem 0rem 0rem 0rem !important;
-  }
-  #discordInvite {
-    max-height: 500px;
   }
 }
 #NavBar {
