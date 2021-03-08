@@ -52,17 +52,13 @@ export default function RulesTab() {
         <li>
           18. The admin team have the authority to make their best judgement on any given situation.
         </li>
+        <li>19. TP traps are not permitted.</li>
         <li>
-          19. Teaming up is not permitted. If an accusation of teaming is proven, the offending
-          players will be be structure wiped on the map in question.
-        </li>
-        <li>20. TP traps are not permitted.</li>
-        <li>
-          21. Dino stacking for breeding purposes causes lag. If stacked dinos are found and causing
+          20. Dino stacking for breeding purposes causes lag. If stacked dinos are found and causing
           lag, they will be killed to improve server performance.
         </li>
         <li>
-          22. During a raid/pvp prisoners can be taken and held for a maximum of 30 minutes. After
+          21. During a raid/pvp prisoners can be taken and held for a maximum of 30 minutes. After
           this time you must release or kill them.
         </li>
       </ul>
