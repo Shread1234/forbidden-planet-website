@@ -54,6 +54,7 @@ body {
   z-index: -1;
   top: 0;
 }
+
 @media (min-aspect-ratio: 16/9) {
   #pvpVideo {
     width: 100%;
@@ -89,13 +90,12 @@ body {
 }
 @media (max-width: 600px) {
   #ServerCards {
-    margin: 5rem 0rem 0rem 0rem !important;
+    margin: 4rem 0rem 0rem 0rem !important;
   }
   .serverCard {
     padding: 0px 0px 20px 0px !important;
   }
 }
-
 @media (max-width: 899px) {
   .serverLogo {
     display: none;
@@ -107,18 +107,13 @@ body {
     display: none;
   }
 }
-
 @media (min-width: 1919px) {
   #ServerCards {
     margin: 5rem 0rem 0rem 0rem !important;
     overflow: hidden !important;
   }
 }
-@media (min-width: 1922px and min-height 1300px) {
-  #ServerCards {
-    margin: 20rem 0rem 0rem 0rem !important;
-  }
-}
+
 #NavBar {
   background: rgba(0, 0, 0, 1);
   z-index: 1;
@@ -167,6 +162,7 @@ li {
 #dicordInviteContainer {
   margin: 4rem auto;
   height: 88vh;
+  overflow-y: scroll;
 }
 
 #discordInviteImage {
@@ -185,10 +181,9 @@ li {
 }
 
 #ServerCards {
-  margin: 5rem 2em;
-  max-height: 88vh;
+  margin: 3rem 2em;
+  max-height: 93vh;
   overflow-y: scroll;
-  overflow-x: hidden;
   text-align: center;
 }
 
