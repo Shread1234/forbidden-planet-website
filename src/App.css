@@ -106,6 +106,9 @@ body {
   ::-webkit-scrollbar {
     display: none;
   }
+  .serverVote {
+    display: none;
+  }
 }
 @media (min-width: 1919px) {
   #ServerCards {
@@ -202,4 +205,19 @@ li {
   border: none;
   position: relative;
   background: white;
+}
+
+.serverVote {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: rgb(232, 230, 227);
+  background: rgb(32, 134, 55);
+  text-decoration: none;
+  height: 100px;
+  width: 30px;
+  font-weight: 600;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: bottom;
+  font-size: 20px;
 }

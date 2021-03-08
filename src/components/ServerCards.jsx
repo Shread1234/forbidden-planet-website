@@ -20,6 +20,9 @@ export default function ServerCards() {
             border="0"
           />
         </a>
+        <a className="serverVote" href="https://ark-servers.net/server/255099/vote/">
+          VOTE
+        </a>
       </div>
       <div className="serverCard">
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29400">
@@ -30,6 +33,9 @@ export default function ServerCards() {
             alt="Extinction Banner"
             border="0"
           />
+        </a>
+        <a className="serverVote" href="https://ark-servers.net/server/249768/vote/">
+          VOTE
         </a>
       </div>
       <div className="serverCard">
@@ -42,8 +48,10 @@ export default function ServerCards() {
             border="0"
           />
         </a>
+        <a className="serverVote" href="https://ark-servers.net/server/259999/vote/">
+          VOTE
+        </a>
       </div>
-
       <div className="serverCard">
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29200">
           <img className="serverLogo" src={Ragnarok} alt="Ragnarok logo" />
@@ -53,6 +61,9 @@ export default function ServerCards() {
             alt="Ragnarok Banner"
             border="0"
           />
+        </a>
+        <a className="serverVote" href="https://ark-servers.net/server/248505/vote/">
+          VOTE
         </a>
       </div>
       <div className="serverCard">
@@ -65,6 +76,9 @@ export default function ServerCards() {
             border="0"
           />
         </a>
+        <a className="serverVote" href="https://ark-servers.net/server/248508/vote/">
+          VOTE
+        </a>
       </div>
       <div className="serverCard">
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29000">
@@ -75,6 +89,9 @@ export default function ServerCards() {
             border="0"
             alt="Abberation Banner"
           />
+        </a>
+        <a className="serverVote" href="https://ark-servers.net/server/248506/vote/">
+          VOTE
         </a>
       </div>
       <div className="serverCard">
@@ -87,6 +104,9 @@ export default function ServerCards() {
             alt="Crystal Isles Banner"
           />
         </a>
+        <a className="serverVote" href="https://ark-servers.net/server/254249/vote/">
+          VOTE
+        </a>
       </div>
       <div className="serverCard">
         <a href="steam://connect/forbiddenplanetpvp.ddns.net:29300">
@@ -97,6 +117,9 @@ export default function ServerCards() {
             border="0"
             alt="Scorched Earth Banner"
           />
+        </a>
+        <a className="serverVote" href="https://ark-servers.net/server/248507/vote/">
+          VOTE
         </a>
       </div>
     </div>
