@@ -214,10 +214,9 @@ li {
   background: rgb(32, 134, 55);
   text-decoration: none;
   height: 100px;
-  width: 30px;
+  width: 28px;
   font-weight: 600;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  text-align: bottom;
-  font-size: 20px;
+  font-size: 18px;
 }
